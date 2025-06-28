@@ -444,6 +444,9 @@
                 <div class="slide" id="slide8">
                     <img src="an3.jpeg" alt="Ananda Memory 5" class="w-full h-full object-cover">
                 </div>
+                <div class="slide" id="slide9">
+                    <video src="vid1.mp4" alt="Ananda Memory 5" class="w-full h-full object-cover" autoplay="off">
+                </div>
                 
                 <!-- Slider Navigation -->
                 <div class="slider-nav absolute bottom-6 left-0 right-0 flex justify-center space-x-3">
@@ -455,6 +458,7 @@
                     <div class="slider-dot" data-slide="6"></div>
                     <div class="slider-dot" data-slide="7"></div>
                     <div class="slider-dot" data-slide="8"></div>
+                    <div class="slider-dot" data-slide="9"></div>
                 </div>
                 
                 <!-- Slider Controls -->
@@ -525,8 +529,6 @@
             </div>
         </div>
     </section>
-
-    <video src="vid1.mp4"></video>
 
     <!-- Messages from Friends Area -->
     <section class="py-16 px-4 bg-gradient-to-r from-indigo-50 to-purple-50" id="friends-messages">
@@ -632,12 +634,6 @@ Peace out✌🏻✌🏻</p>
                     <p class="content">We don’t talk anymore, but I hope you know I still noticed you’re leaving. Safe travels.</p>
                 </div>
 
-                <div class="message-card from-friend">
-                    <div class="author">
-                        Sean <span class="role">Friend</span>
-                    </div>
-                    <p class="content">Ananda, I hope you find someone better than Ananya where you're going.</p>
-                </div>
 
 
                 <div class="message-card from-teacher">
@@ -745,7 +741,7 @@ Really going to miss you. My prayers and blessings are with you. </p>
         document.addEventListener('DOMContentLoaded', () => {
             // --- CORE VARIABLES ---
             let currentSlide = 1;
-            const totalSlides = 8; // Updated to 5 images
+            const totalSlides = 9; // Updated to 5 images
 
             // --- INTRO ANIMATION & UI SETUP---
             (() => {
